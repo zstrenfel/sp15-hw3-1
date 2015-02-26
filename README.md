@@ -65,5 +65,5 @@ and push it up to a  repo on your Github account.  If you forked this repo and c
 ```
 git push origin HEAD
 ```
-and submit this form.
+and submit this [form](https://docs.google.com/forms/d/1yn5HEALzMyvv9JHKB-b_4_CihrANtvdAIbTtVe0n1zY/viewform).
 
