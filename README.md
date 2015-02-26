@@ -1,9 +1,9 @@
 # README
 
-This is homework 3.  Hopefully I made this easier than homework 2.  Now we are getting to the interesting.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).
+This is homework 3.  Hopefully I made this easier than homework 2.  Now we are getting to the interesting part.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).
 
 ## Overall Specifications
-In the end all we want is Users, Cats, and Todos with the following specifications in the database, to have models defined for them,AND to submit answers to the google doc.  We are going with the very basic TODO app that pretty common in tutorials everywhere.
+In the end all we want is Users, Cats, and Todos with the following specifications in the database, to have models defined for them, AND to submit answers to the google doc.  We are going with the very basic TODO app that pretty common in tutorials everywhere.
 
 ### Users
 name: A string that contains the name of the User
