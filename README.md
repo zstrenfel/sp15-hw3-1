@@ -1,6 +1,6 @@
 # README
 
-This is homework 3.  Hopefully I made this easier than homework 2.  Now we are getting to the interesting part.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).  To get started fork this repo onto your own account and clone it from your forked repo.
+This is homework 3.  Hopefully I made this easier than homework 2.  Now we are getting to the interesting part.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).  To get started fork this repo onto your own account and clone it from your forked repo just like you did [hw2](https://github.com/rails-decal/sp15-hw3).
 
 ## Overall Specifications
 In the end all we want is Users, Cats, and Todos with the following specifications in the database, to have models defined for them, AND to submit answers to the google doc.  We are going with the very basic TODO app that pretty common in tutorials everywhere.
