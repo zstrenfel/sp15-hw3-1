@@ -1,12 +1,12 @@
 # README
 
-This is homework 3.  Hopefully I made this easier than homework 2.  Now we are getting to the interesting part.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).  To get started fork this repo onto your own account and clone it from your forked repo just like you did [hw2](https://github.com/rails-decal/sp15-hw3).
+This is homework 3.  Hopefully I made this just a tad bit easier than homework 2.  Now we are getting to the interesting part.  We are getting into migrations (changes to the database), and models (our way with interacting with the data in our database).  To get started fork this repo onto your own account and clone it from your forked repo just like you did [hw2](https://github.com/rails-decal/sp15-hw3).
 
 ## Overall Specifications
 In the end all we want is Users, Cats, and Todos with the following specifications in the database, to have models defined for them, AND to submit answers to the google doc.  We are going with the very basic TODO app that pretty common in tutorials everywhere.
 
 ### Users
-name: A string that contains the name of the User
+username: A string that contains the username of the User
 
 email: A string that contains the email of the User
 
@@ -44,7 +44,7 @@ $ rails c
 ```
 
 ### Users
-So for User we can see a migration was made to create a user with a name and an email, and we already have a model.  All we need to do is add an integer called age to our Users table.  Check our the [rails documentation](http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-migration) to see how to do this.  Run the migration and check to see if your User now has an age.
+So for User we can see a migration was made to create a user with a name and an email, and we already have a model.  We need to do is add an integer called age to our Users table.  Check our the [rails documentation](http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-migration) to see how to do this.  Run the migration and check to see if your User now has an age.  
 
 ```
 $ rails c
@@ -52,8 +52,13 @@ $ rails c
 > u.age # Should not error
 ```
 
+Now try and see if you can rename the column from name to username.  How to do it should be within the above documentation.  Do a similar check to see if it worked!
+
 ### Todos
 There isn't anything here for todos!  This is a perfect time to see how easy it is to create a migration and model in seconds with one command line action.  Check [this](http://edgeguides.rubyonrails.org/active_record_migrations.html#model-generators) out to see how.  Run similar actions to the above two to check to see if it worked!
+
+### Extra
+This just an extra challenge.  Combining all the stuff you learned from the first few lectures make a home page display all the users, todos, and cats.
 
 ## Submitting
 Go to the top of the app and run
