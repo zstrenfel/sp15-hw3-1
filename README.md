@@ -35,7 +35,7 @@ in order to make the changes to your database.
 ## Walkthrough
 
 ### Cats
-So one of the first things you should notice is that there is already a migration to create a cats table with a name field of type string in it, but you don't have a model associated with it.  First define the model[http://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models] in app/models.  Then create a method called meow (you can call it whatever really) and just have it puts meow to the console.  Save the file and fire up your rails console and check to see if you can create a new cat and call its meow method.  If it prints "meow" you are good!
+So one of the first things you should notice is that there is already a migration to create a cats table with a name field of type string in it, but you don't have a model associated with it.  First [define the model](http://guides.rubyonrails.org/active_record_basics.html#creating-active-record-models) in app/models.  Then create a method called meow (you can call it whatever really) and just have it puts meow to the console.  Save the file and fire up your rails console and check to see if you can create a new cat and call its meow method.  If it prints "meow" you are good!
 
 ```
 $ rails c
@@ -44,7 +44,7 @@ $ rails c
 ```
 
 ### Users
-So for User we can see a migration was made to create a user with a name and an email, and we already have a model.  All we need to do is add an integer called age to our Users table.  Check our the rails documentation[http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-migration] to see how to do this.  Run the migration and check to see if your User now has an age.
+So for User we can see a migration was made to create a user with a name and an email, and we already have a model.  All we need to do is add an integer called age to our Users table.  Check our the [rails documentation](http://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-migration) to see how to do this.  Run the migration and check to see if your User now has an age.
 
 ```
 $ rails c
@@ -53,7 +53,7 @@ $ rails c
 ```
 
 ### Todos
-There isn't anything here for todos!  This is a perfect time to see how easy it is to create a migration and model in seconds with one command line action.  Check this[http://edgeguides.rubyonrails.org/active_record_migrations.html#model-generators] out to see how.  Run similar actions to the above two to check to see if it worked!
+There isn't anything here for todos!  This is a perfect time to see how easy it is to create a migration and model in seconds with one command line action.  Check [this](http://edgeguides.rubyonrails.org/active_record_migrations.html#model-generators) out to see how.  Run similar actions to the above two to check to see if it worked!
 
 ## Submitting
 Go to the top of the app and run
