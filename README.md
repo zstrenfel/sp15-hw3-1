@@ -7,7 +7,9 @@ In the end all we want is Users, Cats, and Todos with the following specificatio
 
 ### Users
 name: A string that contains the name of the User
+
 email: A string that contains the email of the User
+
 age: An integer that contains the age of the User
 
 ### Cats
@@ -15,6 +17,7 @@ name: A string that contains the name of the cat.
 
 ### Todos
 tasks: A string of the task that needs to be done
+
 finished: A boolean on whether or not it's been finished
 
 ### Also
