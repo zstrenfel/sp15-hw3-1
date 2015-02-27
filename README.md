@@ -23,6 +23,9 @@ finished: A boolean on whether or not it's been finished
 ### Also
 Have a method that allows the cat to "Meow", which means give it a method that puts a "Meow" into the console.
 
+### The View
+Finally what we want to do is populate the home page with all the Users, Cats, and Todos
+
 ## Before you start
 
 You probably want to look at the repo to see what's been done for you.  I would especially check app/models and db/migrations.  If you want to try doing it without the walkthrough below I would recommend it because I feel that you learn alot about these kinds of things through trial and error.  Remember to run your migrations with
@@ -57,8 +60,11 @@ Now try and see if you can rename the column from name to username.  How to do i
 ### Todos
 There isn't anything here for todos!  This is a perfect time to see how easy it is to create a migration and model in seconds with one command line action.  Check [this](http://edgeguides.rubyonrails.org/active_record_migrations.html#model-generators) out to see how.  Run similar actions to the above two to check to see if it worked!
 
+### View
+Combining all the stuff you learned from the first few lectures make a home page display all the users, todos, and cats in your database.  First you have to create a pages controller and a home method within it that stores models in an instance variable  (If you don't know how to get all the records for a model try in your console 'User.all'). Route that method to the root.  Create a pages folder within the views folder and create the view that will show the models that are stored in the instance variable that was defined in the controller.  There isn't any particular way we want you to format this.  Now start creating Users, Todos, and Cats in your database and see them on your home page!
+
 ### Extra
-This just an extra challenge.  Combining all the stuff you learned from the first few lectures make a home page display all the users, todos, and cats in your database.
+If you are bored try to split into two lists the finished task and the unfinished tasks.
 
 ## Submitting
 Go to the top of the app and run
