@@ -1,0 +1,18 @@
+<h1>Pages#home</h1>
+
+<% @users.each do |u| %>
+<p><%= u.username %><p>
+<p><%= u.age %><p>
+<% end %>
+
+<%= @cats %>
+<% @cats.each do |u| %>
+<p><%= u.name %><p>
+<% end %>
+
+<% @todo.each do |u| %>
+<p><%= u.tasks %><p>
+<p><%= u.finished %><p>
+<% end %>
+
+
